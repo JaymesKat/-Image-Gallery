@@ -2,7 +2,19 @@ var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
 
 btn = document.querySelector('button');
-var overlay = document.querySelector('.overlay');
+var overlay = document.querySelector('.overlay'); 
+btn.onclick = function(){
+	var className = this.getAttribute('class');
+	if(className === 'dark'){
+		this.setAttribute('class','lighten');
+		btn.textContent = 'Lighten';
+		overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+	}else{
+		this.setAttribute('class','dark');
+		btn.textContent = 'Darken';
+		overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+	}
+};
 
 /* Looping through images */
 
