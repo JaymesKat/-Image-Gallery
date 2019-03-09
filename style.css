@@ -1,11 +1,19 @@
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
+  background-color: greenyellow;
+  border-radius: 5px;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
+  background-color: #e1e1e1;
+}
+
+p {
+  margin: 10 auto;
+  text-align: center;
 }
 
 .full-img {
@@ -13,6 +21,8 @@ body {
   display: block;
   width: 640px;
   height: 480px;
+  border: 2px dotted greenyellow;
+  border-radius: 5px;
 }
 
 .overlay {
