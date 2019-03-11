@@ -1,2 +1,2 @@
-# -Image-Gallery
+# Image-Gallery
 An Image Gallery Built With HTML, CSS and Vanilla JavaScript...
